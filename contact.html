@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="小動物専門店「MimoFa」のサイトです。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow"> <!------検索に出さない------>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+  <link rel="stylesheet" href="style.css">
+  <title>小動物専門店【MimoFa】</title>
+</head>
+
+<body>
+  <header>
+    <div class="cloud-top">
+      <div class="logo-top">
+        <a href="index.html"><img src="images/logo.png" alt="ロゴ画像"></a>
+      </div>
+      <h1 class="sub-title">小動物専門店</h1>
+    </div>
+
+    <nav id="header-nav">
+      <ul>
+        <li><a href="index.html"><img id="icon-size" src="images/icon-home.png" alt="HOMEアイコン"><br>HOME</a></li>
+        <li><a href="about.html"><img id="icon-size" src="images/icon-heart.png" alt="ハートアイコン"><br>MimoFaとは</a></li>
+        <li><a href="animals.html"><img id="icon-size" src="images/icon-animal.png" alt="動物アイコン"><br>動物を探す</a></li>
+        <li><a href="goods.html"><img id="icon-size" src="images/icon-goods.png" alt="グッズアイコン"><br>飼育用品を探す</a></li>
+        <li><a href="contact.html"><img id="icon-size" src="images/icon-contact.png" alt="メールアイコン"><br>お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <img class="hero-image" src="images/reserve2.png" alt="店員と会話している様子">
+  </header>
+
+  <main>
+    <div class="head2">
+      <h2>来店予約・お問い合わせ</h2>
+    </div>
+
+    <div class="white-back">
+      <div class="head-center"> <!------横並び・中央配置------>
+          <img id="icon-size" src="images/icon-calendar.png" alt="カレンダーのアイコン">
+          <h3>来店予約ご希望の方</h3>
+      </div>
+
+      <div class="shadow-back"> <!------影付きパネル------>
+        <p class="contact-text">
+          下記より来店予約いただけます。<br>
+          お迎えについて、店員との相談をご希望の場合<br>
+          ご予約いただくとスムーズです。
+        </p>
+
+        <div class="contact-button">
+          <a href="https://airrsv.net/minimofu/calendar" target="_blank">来店予約する</a>
+        </div>
+
+        <div class="head-center reserve-caution">
+          <img id="icon-size" src="images/icon-speaker.png" alt="スピーカーのアイコン">
+          <p>
+            店舗に在籍中の動物で気になる子がいる場合は、<br>
+            事前にお電話でのお問い合わせを推奨しております。
+          </p>
+        </div>
+      </div>
+
+      <div class="head-center"> <!------横並び・中央配置------>
+          <img id="icon-size" src="images/icon-contact.png" alt="メールのアイコン">
+          <h3>お問い合わせ</h3>
+      </div>
+
+      <div class="shadow-back"> <!------影付きパネル------>
+        <p class="contact-text">
+          下記よりメール問い合わせいただけます。<br>
+          動物やグッズのリクエストの他、<br>
+          飼育に関するご相談も承っております。
+        </p>
+
+        <div class="head-center reserve-caution2">
+          <img id="icon-size" src="images/icon-speaker.png" alt="スピーカーのアイコン">
+          <p>
+            返信までに、2営業日程お時間をいただいております。<br>
+            お急ぎの場合は、お電話にてお問合せください。
+          </p>
+        </div>
+
+        <div class="contact">
+          <form method="post" name="contact-form">
+            <table class="contact-table">
+              <tr>
+                <th class="contact-head">お問い合わせ種類<a class="contact-need">必須</a></th>
+                <td class="contact-data">
+                  <label class="block">
+                    <input type="radio" name="問合せ種類">
+                    <span>販売リクエスト</span>
+                  </label>
+                  <label class="block">
+                    <input type="radio" name="問合せ種類">
+                    <span>ペットに関する相談</span>
+                  </label>
+                  <label class="block">
+                    <input type="radio" name="問合せ種類">
+                    <span>商品について</span>
+                  </label>
+                  <label class="block">
+                    <input type="radio" name="問合せ種類">
+                    <span>お店について</span>
+                  </label>
+                  <label class="block">
+                    <input type="radio" name="問合せ種類">
+                    <span>その他</span>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-head">返信の要否<a class="contact-need">必須</a></th>
+                <td class="contact-data">
+                  <label>
+                    <input type="radio" name="返信要否">
+                    <span>返信希望</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="返信要否">
+                    <span>返信不要</span>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-head">内容詳細<a class="contact-need">必須</a></th>
+                <td class="contact-data">
+                  <textarea class="back-yellow" name="問合せ内容" rows="5"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-head">お名前（姓）</th>
+                <td class="contact-data">
+                  <input class="back-yellow" type="text" name="名前（姓）">
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-head">お名前（セイ）</th>
+                <td class="contact-data">
+                  <input class="back-yellow" type="text" name="名前（セイ）">
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-head">メールアドレス<a class="contact-need">必須</a></th>
+                <td class="contact-data">
+                  <input class="back-yellow" type="email" name="メール">
+                </td>
+              </tr>
+            </table>
+            <input class="submit" type="submit" value="送信">
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </main>
+
+  <footer id="footer">
+    <div id="sns"> <!----背景にグラデ装飾する---->
+      <p class="sns-head">公式SNS</p>
+      <div class="sns-wrap">
+        <div class="sns-frame-inside-first">
+          <div class="sns-frame-inside-dotted sns-wrap-item"> <!---下にドットボーダー入れる--->
+            <a href="#"><img class="sns-wrap-item-left" src="images/instagram.png" alt="Instagramアイコン"></a>
+            <p>
+              Instagramでは<br>
+              限定企画やライブ配信を実施！
+            </p>
+          </div>
+          <div class="sns-wrap-item">
+            <p>
+              最新のお知らせ情報は<br>
+              X（旧Twitter）でチェック！
+            </p>
+            <a href="#"><img class="sns-wrap-item-right" src="images/x.png" alt="Xのアイコン"></a>
+          </div>
+        </div>
+
+        <div class="sns-frame-inside-second">
+          <div class="sns-frame-inside-dotted sns-wrap-item"> <!---下にドットボーダー入れる--->
+            <a href="#"><img class="sns-wrap-item-left" src="images/tiktok.png" alt="TikTokアイコン"></a>
+            <p>
+              ペットに関する豆知識を<br>
+              TikTokで楽しく配信！
+            </p>
+          </div>
+
+          <div class="sns-wrap-item">
+            <p>
+              セールやクーポンなど配信中！<br>
+              友達追加をして待っててね！
+            </p>
+            <a href="#"><img class="sns-wrap-item-right" src="images/line.png" alt="LINEのアイコン"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-frame"> <!------外枠を入れる------>
+      <div class="logo-bottom">
+        <a href="index.html"><img src="images/logo.png" alt="ロゴ画像"></a>
+      </div>
+
+      <div class="footer-container"> <!---上にドット線入れる--->
+        <ul class="footer-main">
+          <li class="footer-main-list">
+            <a class="footer-main-list-head" href="about.html">MimoFaについて</a>
+            <ul class="footer-sub">
+              <li class="footer-sub-list"><a href="about.html#our-heart">私たちの思い</a></li>
+              <li class="footer-sub-list"><a href="about.html#consider">お迎えを検討中の方へ</a></li>
+              <li class="footer-sub-list"><a href="contact.html">来店予約</a></li>
+              <li class="footer-sub-list"><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </li>
+
+          <li class="footer-main-list">
+            <a class="footer-main-list-head" href="about.html#store-info">店舗情報</a>
+            <ul class="footer-sub">
+              <li class="footer-sub-list"><a href="about.html#store-info">営業時間</a></li>
+              <li class="footer-sub-list"><a href="about.html#store-info">アクセス</a></li>
+              <li class="footer-sub-list"><a href="about.html#store-info">責任者</a></li>
+            </ul>
+          </li>
+
+          <li class="footer-main-list">
+            <a class="footer-main-list-head" href="animals.html">動物を探す</a>
+            <ul class="footer-sub">
+              <li class="footer-sub-list"><a href="animals-rabbit.html">ウサギ</a></li>
+              <li class="footer-sub-list"><a href="animals-hamster.html">ハムスター</a></li>
+              <li class="footer-sub-list"><a href="animals-degu.html">デグー</a></li>
+              <li class="footer-sub-list"><a href="animals.html">その他</a></li>
+            </ul>
+          </li>
+
+          <li class="footer-main-list">
+            <a class="footer-main-list-head" href="goods.html">飼育用品を探す</a>
+            <ul class="footer-sub">
+              <li class="footer-sub-list"><a href="#">ケージ</a></li>
+              <li class="footer-sub-list"><a href="#">フード</a></li>
+              <li class="footer-sub-list"><a href="#">掃除用品</a></li>
+              <li class="footer-sub-list"><a href="#">その他</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pagetop">
+        <a href="#"><img src="images/pagetop.png" alt="PAGETOPへ"></a>
+      </div>
+    </div>
+
+    <div class="cloud-bottom">
+
+    </div>
+
+    <p class="copyright">&copy; 2026 MimoFa All Rights Reserved.</p>
+
+  </footer>
+</body>
+
+</html>
